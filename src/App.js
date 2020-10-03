@@ -1,6 +1,8 @@
 import React from 'react';
 import './App.css';
+import Feed from './components/feed/Feed';
 import Sidebar from './components/sidebar/Sidebar';
+import Widget from './components/widget/Widgets';
 
 function App() {
   return (
@@ -9,7 +11,9 @@ function App() {
       {/* sidebar */}
       <Sidebar />
       {/* feeds */}
+      <Feed />
       {/* widget */}
+      <Widget />
     </div>
   );
 }
